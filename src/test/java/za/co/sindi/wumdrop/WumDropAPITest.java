@@ -19,7 +19,7 @@ public class WumDropAPITest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		API api = new WumDropAPIv1("e881d08f89856ff96bee2e12d44567ac6d50b9e1ca891472d36dfd4c");
+		API api = new WumDropAPIv1("YOUR API KEY HERE");
 		try {
 //			api.getDeliveries();
 			System.out.println(api.test());
